@@ -1,0 +1,30 @@
+.container{
+  display:inline-flex;
+  flex-direction: column;              /*row,column,column-reverse,row-reverse*/
+  border:10px solid black;
+}
+.container > *{               /*.container > * targets all child inside container*/
+flex-basis:100px;             /*create more space inside box*/
+}
+
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: aqua;
+}
+.green{
+  background-color: greenyellow;
+}
+.yellow{
+  background-color: yellow;
+}
+.purple{
+  background-color:purple;
+}
+.pink{
+  background-color:pink;
+}
+.orange{
+  background-color: orange;
+}

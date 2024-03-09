@@ -1,0 +1,3 @@
+.container > *{               /*.container > * targets all child inside container*/
+flex-basis:100px;             /*create more space inside box*/
+}
